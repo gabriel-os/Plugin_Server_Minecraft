@@ -15,7 +15,6 @@ public class ListenerEvents implements Listener{
 			LivingEntity entidade = ((LivingEntity) e.getEntity());
 			
 			if(e.getDamager()!= null) {
-				
 				if (e.getDamager() instanceof Player) {
 					
 					Player player = (Player)e.getDamager();
